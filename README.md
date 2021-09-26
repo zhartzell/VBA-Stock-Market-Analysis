@@ -1,14 +1,19 @@
 # VBA-Stock-Market-Analysis
 ## Project Overview
+
 ### Purpose
 The purpose of the current analysis was to help our clients gain a more clear understanding of how different stocks have fluctuated over the a two year span with the goal helping them make informed investment decisions. From large amounts of stock market data, the current code reduces the output to something easily readable. More specifically, it condenses the data down to the yearly volume and yearly percentage return for each stock ticker in both 2017 and 2018. 
+
 ### Data
 The original data consisted of information on 3012 different stocks in both 2017 and 2017. This information included: start date, starting price, highest price within the year, lowest price within the year, ending price, and trading volume. 
+
 ## Results
+
 ### Refactoring Process
 Starting with the original VBA code, our team meticulously inserted new code that would allow our program to run more efficiently as well as producing the desired information. Using comments to identify what the new lines are doing, our code is easy to read and interpret. Below is an image of the final code we used for this analysis: 
 
     Sub AllStocksAnalysisRefactored()
+    
     Dim startTime As Single
     Dim endTime  As Single
 
@@ -134,3 +139,10 @@ Starting with the original VBA code, our team meticulously inserted new code tha
     MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & (yearValue)
 
     End Sub
+    
+### Output
+The output of this new code in a new sheet in Excel that displays each Stock Ticker type and how it performed and was traded over either 2017 or 2018. When running this code, our client is able to select from either year and easily compare the results. Below are images of the output sheet for both 2017 and 2018. 
+<img width="478" alt="Output_Sheet_2017" src="https://user-images.githubusercontent.com/89808050/134827537-921e9e48-5357-42a6-8155-4d0e9095c132.png">
+<img width="479" alt="Output_Sheet_2018" src="https://user-images.githubusercontent.com/89808050/134827546-e425b944-e5d1-4cfc-82fb-237ed22bf442.png">
+
+
