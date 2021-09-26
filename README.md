@@ -7,6 +7,7 @@ The original data consisted of information on 3012 different stocks in both 2017
 ## Results
 ### Refactoring Process
 Starting with the original VBA code, our team meticulously inserted new code that would allow our program to run more efficiently as well as producing the desired information. Using comments to identify what the new lines are doing, our code is easy to read and interpret. Below is an image of the final code we used for this analysis: 
+
 Sub AllStocksAnalysisRefactored()
     Dim startTime As Single
     Dim endTime  As Single
@@ -133,4 +134,3 @@ Sub AllStocksAnalysisRefactored()
     MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & (yearValue)
 
 End Sub
-
