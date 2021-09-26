@@ -142,7 +142,13 @@ Starting with the original VBA code, our team meticulously inserted new code tha
     
 ### Output
 The output of this new code in a new sheet in Excel that displays each Stock Ticker type and how it performed and was traded over either 2017 or 2018. When running this code, our client is able to select from either year and easily compare the results. Below are images of the output sheet for both 2017 and 2018. 
+
 <img width="478" alt="Output_Sheet_2017" src="https://user-images.githubusercontent.com/89808050/134827537-921e9e48-5357-42a6-8155-4d0e9095c132.png">
 <img width="479" alt="Output_Sheet_2018" src="https://user-images.githubusercontent.com/89808050/134827546-e425b944-e5d1-4cfc-82fb-237ed22bf442.png">
 
+## Summary
+### Advantages of Refactoring Code
+The advantages of refactoring code is that it allows us to run programming operations in a more effcient and tidy way. Not only do the code changes and code comments make it easier for other coders to understand your work, but refactoring can also lead to less timely analyses. By increasing the efficiency of the code, the computer can operate more quickly and utilize less memory. 
+### Disadvantages of Refactoring Code
+Some disadvantages of refactoring code is that it can be time consuming and risky. Although the refactored code can often run faster than the original, it can take coders a lot of energy to refactor appropriately. In addition, there can be some risk if the refactored code lacks valid test cases or when the application is very big. In these circumstances, the original VBA script may be less risky and preferable. 
 
